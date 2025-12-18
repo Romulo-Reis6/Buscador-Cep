@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Buscador de cep 🗺️</h1>
+    <form id="cep-form">
+      <label for="cep-input">CEP (apenas números): </label>
+      <input type="text" id="cep-input" placeholder="00000000" required>
+      <button type="submit">Consultar</button>
+    </form>
+    <section id="cep-data"></section>
+    <section id="map"></section>
+    <div id="modal-block">
+      <div id="modal-content">
+        <p>Carregando...</p>
+        <img src="./img/loading.gif" alt="">
+      </div>
+    </div>
+  </main>
+</body>
+</html>
